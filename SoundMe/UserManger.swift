@@ -26,7 +26,8 @@ public class UserManger{
 
 
 
-
+    func dror(){
+    }
 
     static let Instance = UserManger()
 
