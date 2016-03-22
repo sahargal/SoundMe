@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        UserManger.Instance.checkUser("Dror", password: "King")
     }
 
     override func didReceiveMemoryWarning() {
