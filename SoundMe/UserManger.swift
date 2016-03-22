@@ -26,7 +26,7 @@ public class UserManger{
 
 
 
-    func saharhomo(){
+    func sahcxarhomo(){
     }
 
     static let Instance = UserManger()
