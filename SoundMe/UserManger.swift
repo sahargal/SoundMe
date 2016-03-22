@@ -19,7 +19,7 @@ public class UserManger{
             }
         }
     }
-
+dfsf
 
 
     static let Instance = UserManger()
