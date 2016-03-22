@@ -20,14 +20,7 @@ public class UserManger{
         }
     }
 
-    public func sahar(){
-    
-    }
 
-
-
-    func drorhohhnghmo(){
-    }
 
     static let Instance = UserManger()
 
