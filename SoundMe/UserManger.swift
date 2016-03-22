@@ -23,7 +23,7 @@ public class UserManger{
 
 
 
-    func drorhomo(){
+    func drorhohhnghmo(){
     }
 
     static let Instance = UserManger()
