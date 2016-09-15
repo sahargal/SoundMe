@@ -8,40 +8,88 @@
 
 import Foundation
 
-public class UserManger{
+
+open class UserManger {
     
-    public func checkUser(userName:String,password:String){
-        API.checkUserName(userName, password: password) { (success, result) -> () in
-            if success {
-                print(result)
-            }else{
-                print(result)
+//    { (parameters) -> return type in
+//    statements
+//    }
+//    
+
+
+
+    open func logInUser(_ email:String, password:String,callback:@escaping (_ success:Bool,_ result:String)->()){
+        API.login(email, password: password) { (success, result) -> () in
+            if (!success) {   //(x!) error!!
+            callback(true, "sucess")
+            }
+                
+            else {
+            callback(false, "error")
             }
         }
+        
+        
     }
-dfsf
-
-
-    static let Instance = UserManger()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    open func SignIn(_ userName:String,UserEmail:String,userPassword:String,callback:(_ sucssesToSighnIN:Bool)->()){
+      
+    }
+    open func getUserMe(_ userId:Int,callback:(_ sucssesToGetDeteailUser:Bool //,User[id]:User
+        )->()){
+            //cheak if id  exist
+            
+            callback(true) //and the UserObject according to id
+    }
+//    public func getLocation(locationUser:Location,callback:(sucsses:Bool,)->()){
+        
+ //   }
+ //   public func getFreindsLocation(locationOfMyFreindsList:[Location],callback:(sucsses:Bool,listLocationOfmyFreinds:[])){
+//    }
+    
+    //פןנקציות שמקבלות מידע מהapi
+   
+    open func getDetailMyFriends() {
+    }
+    open func logout(){
+    }
+    
 }
+
+//callback - מה הפוקנציה מחזירה(תשובה)
+// example for callback
+// public func cheackNewUserRegiteration(email:String,name:String,password:String,callback:(sucsses:Bool,result:String)->())
+// {
+
+//    callback(sucsses: true, result: "sucess to sign in")
+//    }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
