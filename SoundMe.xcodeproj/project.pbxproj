@@ -16,6 +16,7 @@
 		04AE4C6A1D89FD7F00A0C1FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AE4C691D89FD7F00A0C1FE /* Main.storyboard */; };
 		04AE4C6C1D89FE1700A0C1FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AE4C6B1D89FE1700A0C1FE /* LaunchScreen.storyboard */; };
 		04AE4C6F1D89FFC000A0C1FE /* LoginsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE4C6E1D89FFC000A0C1FE /* LoginsViewController.swift */; };
+		04DE8C551D8C2F07009112CA /* ViewControllerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE8C541D8C2F07009112CA /* ViewControllerUtils.swift */; };
 		33115F8A1C8AE59700D73A9A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33115F841C8AE59700D73A9A /* Bolts.framework */; };
 		33115F8B1C8AE59700D73A9A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33115F851C8AE59700D73A9A /* Parse.framework */; };
 		33115F8C1C8AE59700D73A9A /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33115F861C8AE59700D73A9A /* ParseFacebookUtils.framework */; };
@@ -69,6 +70,7 @@
 		04AE4C691D89FD7F00A0C1FE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		04AE4C6B1D89FE1700A0C1FE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04AE4C6E1D89FFC000A0C1FE /* LoginsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginsViewController.swift; sourceTree = "<group>"; };
+		04DE8C541D8C2F07009112CA /* ViewControllerUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerUtils.swift; sourceTree = "<group>"; };
 		33115F841C8AE59700D73A9A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "parse-library-1-6/Bolts.framework"; sourceTree = "<group>"; };
 		33115F851C8AE59700D73A9A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "parse-library-1-6/Parse.framework"; sourceTree = "<group>"; };
 		33115F861C8AE59700D73A9A /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "parse-library-1-6/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
@@ -180,6 +182,14 @@
 			name = StoryBoard;
 			sourceTree = "<group>";
 		};
+		04DE8C531D8C2E44009112CA /* Utilitis */ = {
+			isa = PBXGroup;
+			children = (
+				04DE8C541D8C2F07009112CA /* ViewControllerUtils.swift */,
+			);
+			name = Utilitis;
+			sourceTree = "<group>";
+		};
 		33115F821C8AE56700D73A9A /* Framework */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +238,7 @@
 		33CF86081C8AE30A0037C701 /* SoundMe */ = {
 			isa = PBXGroup;
 			children = (
+				04DE8C531D8C2E44009112CA /* Utilitis */,
 				04AE4C711D89FFF000A0C1FE /* StoryBoard */,
 				04AE4C701D89FFCA00A0C1FE /* ViewController */,
 				33CF86391C8AE44B0037C701 /* Server */,
@@ -407,6 +418,7 @@
 				04AE4C6F1D89FFC000A0C1FE /* LoginsViewController.swift in Sources */,
 				33CF860C1C8AE30A0037C701 /* ViewController.swift in Sources */,
 				33CF86381C8AE4450037C701 /* API.swift in Sources */,
+				04DE8C551D8C2F07009112CA /* ViewControllerUtils.swift in Sources */,
 				04AE4C681D88B03B00A0C1FE /* ServerResponse.swift in Sources */,
 				04AE4C5E1D86BF1100A0C1FE /* User.swift in Sources */,
 				33CF860A1C8AE30A0037C701 /* AppDelegate.swift in Sources */,

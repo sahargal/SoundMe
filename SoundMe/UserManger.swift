@@ -33,8 +33,13 @@ open class UserManger {
 
     }
 
-    open func SignInFaceback(_ userName:String,UserEmail:String,callback:(_ sucssesToSighnIN:Bool)->()){
+    open func SignInFaceback(_ userName:String,UserEmail:String,callback:@escaping (_ sucssesToSighnIN:Bool)->()){
         let userPassword:String = userName
+        API.login(UserEmail, password: userPassword, callback: {(success,result)-> Void in
+            if (success){
+                
+            }
+        })
     }
     open func getUserMe(_ userId:Int,callback:(_ sucssesToGetDeteailUser:Bool //,User[id]:User
         )->()){

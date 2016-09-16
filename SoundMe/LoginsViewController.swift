@@ -71,9 +71,11 @@ class LoginsViewController: UIViewController,FBSDKLoginButtonDelegate {
                     ViewControllerUtils.doOnMain {
                         if Bool{
                             //hide
+                            
                             //self.performSegue(withIdentifier: "AlreadyLoginIn", sender: self)
                         }else{
                             //hide
+                            
                             //msg error stay on page
                         }
                     }
