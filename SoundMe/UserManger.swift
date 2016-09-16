@@ -10,11 +10,8 @@ import Foundation
 
 
 open class UserManger {
-    
-//    { (parameters) -> return type in
-//    statements
-//    }
-//    
+
+    static let Instance = UserManger()
 
 
 
@@ -32,17 +29,12 @@ open class UserManger {
         
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    open func SignIn(_ userName:String,UserEmail:String,userPassword:String,callback:(_ sucssesToSighnIN:Bool)->()){
-      
+    open func SignInWithSoundMe(_ userName:String,UserEmail:String,userPassword:String,callback:(_ sucssesToSighnIN:Bool)->()){
+
+    }
+
+    open func SignInFaceback(_ userName:String,UserEmail:String,callback:(_ sucssesToSighnIN:Bool)->()){
+        let userPassword:String = userName
     }
     open func getUserMe(_ userId:Int,callback:(_ sucssesToGetDeteailUser:Bool //,User[id]:User
         )->()){

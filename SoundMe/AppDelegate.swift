@@ -19,14 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
         FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
-
         
-        Parse.enableLocalDatastore()
-        
-        Parse.setApplicationId("rvFb8JKYUljLUxiblhk580tPpJbGpG6dl9yMmI49",
-            clientKey: "3ztjhzUzYC4HpWholuwgJCWnsx3s05319q5aEjmp")
-        
-        PFAnalytics.trackAppOpened(launchOptions: launchOptions)
         return true
     }
     func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
