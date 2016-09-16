@@ -6,6 +6,8 @@
 //  Copyright © 2016 dror gal. All rights reserved.
 //
 
+//ERROR func getUserData==========E R R O R======ERROR======///////
+
 import UIKit
 import MediaPlayer
 import FBSDKCoreKit
@@ -97,7 +99,7 @@ class LoginsViewController: UIViewController,FBSDKLoginButtonDelegate {
                     print(error)
                 }
                 else {
-                   //  let email = result["email"] as? String
+                   //  let email = result["email"] as? String  \\ERROR
                    // print(email)
                     print(result)
                 
