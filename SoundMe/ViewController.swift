@@ -9,10 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        UserManger.Instance.checkUser("Dror", password: "King")
+        
+
+    
     }
 
     override func didReceiveMemoryWarning() {
