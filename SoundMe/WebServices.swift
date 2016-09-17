@@ -15,7 +15,7 @@ class WebServices {
     private init() {
         
     }
-    ff
+    
     func postSyncJSON(params : Dictionary<String, String>, url : String, postCompleted : @escaping (_ success: Bool, _ result : ServerResponse ) -> ()) {
         let mutex : DispatchSemaphore = DispatchSemaphore(value: 0)
         let completion = postCompleted

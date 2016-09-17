@@ -30,7 +30,7 @@ class LoginWithSoundmeViewController: UIViewController {
     
     func didMoveToNext(){
 
-        //self.performSegue(withIdentifier: "moveToMain", sender: self)
+        self.performSegue(withIdentifier: "moveToMain", sender: self)
 
     }
 

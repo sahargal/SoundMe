@@ -34,12 +34,29 @@
 		33115FA11C8AE6DC00D73A9A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 33115FA01C8AE6DC00D73A9A /* libz.tbd */; };
 		33115FA31C8AE6E800D73A9A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 33115FA21C8AE6E800D73A9A /* libsqlite3.tbd */; };
 		33115FA51C8AEE2600D73A9A /* UserManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33115FA41C8AEE2600D73A9A /* UserManger.swift */; };
+		333C89BD1D8D672400BD6446 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333C89BC1D8D672400BD6446 /* GoogleMapsBase.framework */; };
+		333C89C01D8D674600BD6446 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333C89BE1D8D674600BD6446 /* GoogleMaps.framework */; };
+		333C89C11D8D674600BD6446 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333C89BF1D8D674600BD6446 /* GoogleMapsCore.framework */; };
+		333C89C31D8D677D00BD6446 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 333C89C21D8D677D00BD6446 /* GoogleMaps.bundle */; };
+		333C89C61D8D692400BD6446 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333C89C51D8D692400BD6446 /* Accelerate.framework */; };
+		333C89C81D8D695A00BD6446 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333C89C71D8D695A00BD6446 /* CoreData.framework */; };
+		333C89CA1D8D697E00BD6446 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333C89C91D8D697E00BD6446 /* CoreText.framework */; };
+		333C89CC1D8D698D00BD6446 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333C89CB1D8D698D00BD6446 /* GLKit.framework */; };
+		333C89CE1D8D699700BD6446 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333C89CD1D8D699700BD6446 /* ImageIO.framework */; };
+		333C89D01D8D69B400BD6446 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 333C89CF1D8D69B400BD6446 /* libc++.tbd */; };
+		333C89D21D8D69C800BD6446 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333C89D11D8D69C800BD6446 /* OpenGLES.framework */; };
+		333C89D41D8D69DF00BD6446 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333C89D31D8D69DF00BD6446 /* UIKit.framework */; };
+		333C89D61D8D6AAA00BD6446 /* LoginWithSoundmeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333C89D51D8D6AAA00BD6446 /* LoginWithSoundmeViewController.swift */; };
+		333C89D91D8D6AC200BD6446 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333C89D71D8D6AC200BD6446 /* MainTabBarViewController.swift */; };
+		333C89DA1D8D6AC200BD6446 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333C89D81D8D6AC200BD6446 /* MapViewController.swift */; };
+		333C89DC1D8D6BFB00BD6446 /* ListSongForUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333C89DB1D8D6BFB00BD6446 /* ListSongForUserViewController.swift */; };
 		33CF860A1C8AE30A0037C701 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CF86091C8AE30A0037C701 /* AppDelegate.swift */; };
 		33CF860C1C8AE30A0037C701 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CF860B1C8AE30A0037C701 /* ViewController.swift */; };
 		33CF86111C8AE30A0037C701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CF86101C8AE30A0037C701 /* Assets.xcassets */; };
 		33CF861F1C8AE30A0037C701 /* SoundMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CF861E1C8AE30A0037C701 /* SoundMeTests.swift */; };
 		33CF862A1C8AE30A0037C701 /* SoundMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CF86291C8AE30A0037C701 /* SoundMeUITests.swift */; };
 		33CF86381C8AE4450037C701 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CF86371C8AE4450037C701 /* API.swift */; };
+		33F80B0A1D8D6FCC009DFD75 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F80B091D8D6FCC009DFD75 /* MeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +105,22 @@
 		33115FA01C8AE6DC00D73A9A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		33115FA21C8AE6E800D73A9A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		33115FA41C8AEE2600D73A9A /* UserManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserManger.swift; path = SoundMe/UserManger.swift; sourceTree = "<group>"; };
+		333C89BC1D8D672400BD6446 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
+		333C89BE1D8D674600BD6446 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		333C89BF1D8D674600BD6446 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
+		333C89C21D8D677D00BD6446 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		333C89C51D8D692400BD6446 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		333C89C71D8D695A00BD6446 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		333C89C91D8D697E00BD6446 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		333C89CB1D8D698D00BD6446 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		333C89CD1D8D699700BD6446 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		333C89CF1D8D69B400BD6446 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		333C89D11D8D69C800BD6446 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		333C89D31D8D69DF00BD6446 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		333C89D51D8D6AAA00BD6446 /* LoginWithSoundmeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWithSoundmeViewController.swift; sourceTree = "<group>"; };
+		333C89D71D8D6AC200BD6446 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		333C89D81D8D6AC200BD6446 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		333C89DB1D8D6BFB00BD6446 /* ListSongForUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListSongForUserViewController.swift; sourceTree = "<group>"; };
 		33CF86061C8AE30A0037C701 /* SoundMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CF86091C8AE30A0037C701 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33CF860B1C8AE30A0037C701 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +133,7 @@
 		33CF86291C8AE30A0037C701 /* SoundMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundMeUITests.swift; sourceTree = "<group>"; };
 		33CF862B1C8AE30A0037C701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33CF86371C8AE4450037C701 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		33F80B091D8D6FCC009DFD75 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,23 +141,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33115FA31C8AE6E800D73A9A /* libsqlite3.tbd in Frameworks */,
-				33115FA11C8AE6DC00D73A9A /* libz.tbd in Frameworks */,
-				043547CE1D8AAED000514775 /* FBSDKLoginKit.framework in Frameworks */,
-				043547CD1D8AAED000514775 /* FBSDKCoreKit.framework in Frameworks */,
+				333C89D41D8D69DF00BD6446 /* UIKit.framework in Frameworks */,
 				33115F9F1C8AE6D400D73A9A /* SystemConfiguration.framework in Frameworks */,
-				33115F9D1C8AE6CB00D73A9A /* StoreKit.framework in Frameworks */,
-				33115F9B1C8AE6C100D73A9A /* Security.framework in Frameworks */,
 				33115F991C8AE6B800D73A9A /* QuartzCore.framework in Frameworks */,
+				333C89D21D8D69C800BD6446 /* OpenGLES.framework in Frameworks */,
+				33115FA11C8AE6DC00D73A9A /* libz.tbd in Frameworks */,
+				333C89D01D8D69B400BD6446 /* libc++.tbd in Frameworks */,
+				333C89CE1D8D699700BD6446 /* ImageIO.framework in Frameworks */,
+				333C89CC1D8D698D00BD6446 /* GLKit.framework in Frameworks */,
+				333C89CA1D8D697E00BD6446 /* CoreText.framework in Frameworks */,
 				33115F971C8AE6AC00D73A9A /* CoreLocation.framework in Frameworks */,
 				33115F951C8AE69F00D73A9A /* CoreGraphics.framework in Frameworks */,
+				333C89C81D8D695A00BD6446 /* CoreData.framework in Frameworks */,
+				333C89C61D8D692400BD6446 /* Accelerate.framework in Frameworks */,
+				33115FA31C8AE6E800D73A9A /* libsqlite3.tbd in Frameworks */,
+				043547CE1D8AAED000514775 /* FBSDKLoginKit.framework in Frameworks */,
+				043547CD1D8AAED000514775 /* FBSDKCoreKit.framework in Frameworks */,
+				33115F9D1C8AE6CB00D73A9A /* StoreKit.framework in Frameworks */,
+				33115F9B1C8AE6C100D73A9A /* Security.framework in Frameworks */,
+				333C89C11D8D674600BD6446 /* GoogleMapsCore.framework in Frameworks */,
 				33115F931C8AE69300D73A9A /* CFNetwork.framework in Frameworks */,
 				33115F911C8AE68800D73A9A /* AudioToolbox.framework in Frameworks */,
 				33115F8F1C8AE59700D73A9A /* ParseUI.framework in Frameworks */,
 				33115F8B1C8AE59700D73A9A /* Parse.framework in Frameworks */,
 				33115F8A1C8AE59700D73A9A /* Bolts.framework in Frameworks */,
+				333C89BD1D8D672400BD6446 /* GoogleMapsBase.framework in Frameworks */,
 				33115F8D1C8AE59700D73A9A /* ParseFacebookUtilsV4.framework in Frameworks */,
 				33115F8C1C8AE59700D73A9A /* ParseFacebookUtils.framework in Frameworks */,
+				333C89C01D8D674600BD6446 /* GoogleMaps.framework in Frameworks */,
 				33115F8E1C8AE59700D73A9A /* ParseTwitterUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,6 +214,11 @@
 			children = (
 				04AE4C6E1D89FFC000A0C1FE /* LoginsViewController.swift */,
 				33CF860B1C8AE30A0037C701 /* ViewController.swift */,
+				333C89D71D8D6AC200BD6446 /* MainTabBarViewController.swift */,
+				333C89D81D8D6AC200BD6446 /* MapViewController.swift */,
+				33F80B091D8D6FCC009DFD75 /* MeViewController.swift */,
+				333C89DB1D8D6BFB00BD6446 /* ListSongForUserViewController.swift */,
+				333C89D51D8D6AAA00BD6446 /* LoginWithSoundmeViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -193,8 +243,12 @@
 		33115F821C8AE56700D73A9A /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				333C89C21D8D677D00BD6446 /* GoogleMaps.bundle */,
 				33115FA21C8AE6E800D73A9A /* libsqlite3.tbd */,
 				33115FA01C8AE6DC00D73A9A /* libz.tbd */,
+				333C89BE1D8D674600BD6446 /* GoogleMaps.framework */,
+				333C89BF1D8D674600BD6446 /* GoogleMapsCore.framework */,
+				333C89BC1D8D672400BD6446 /* GoogleMapsBase.framework */,
 				043547CC1D8AAED000514775 /* FBSDKLoginKit.framework */,
 				043547CB1D8AAED000514775 /* FBSDKCoreKit.framework */,
 				33115F9E1C8AE6D400D73A9A /* SystemConfiguration.framework */,
@@ -215,6 +269,21 @@
 			name = Framework;
 			sourceTree = "<group>";
 		};
+		333C89C41D8D692300BD6446 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				333C89D31D8D69DF00BD6446 /* UIKit.framework */,
+				333C89D11D8D69C800BD6446 /* OpenGLES.framework */,
+				333C89CF1D8D69B400BD6446 /* libc++.tbd */,
+				333C89CD1D8D699700BD6446 /* ImageIO.framework */,
+				333C89CB1D8D698D00BD6446 /* GLKit.framework */,
+				333C89C91D8D697E00BD6446 /* CoreText.framework */,
+				333C89C71D8D695A00BD6446 /* CoreData.framework */,
+				333C89C51D8D692400BD6446 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		33CF85FD1C8AE30A0037C701 = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +291,7 @@
 				33CF861D1C8AE30A0037C701 /* SoundMeTests */,
 				33CF86281C8AE30A0037C701 /* SoundMeUITests */,
 				33CF86071C8AE30A0037C701 /* Products */,
+				333C89C41D8D692300BD6446 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -348,6 +418,7 @@
 				TargetAttributes = {
 					33CF86051C8AE30A0037C701 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = MSXB884665;
 						LastSwiftMigration = 0800;
 					};
 					33CF86191C8AE30A0037C701 = {
@@ -390,6 +461,7 @@
 				04AE4C6C1D89FE1700A0C1FE /* LaunchScreen.storyboard in Resources */,
 				04AE4C6A1D89FD7F00A0C1FE /* Main.storyboard in Resources */,
 				33CF86111C8AE30A0037C701 /* Assets.xcassets in Resources */,
+				333C89C31D8D677D00BD6446 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,15 +486,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F80B0A1D8D6FCC009DFD75 /* MeViewController.swift in Sources */,
 				33115FA51C8AEE2600D73A9A /* UserManger.swift in Sources */,
 				04AE4C6F1D89FFC000A0C1FE /* LoginsViewController.swift in Sources */,
 				33CF860C1C8AE30A0037C701 /* ViewController.swift in Sources */,
 				33CF86381C8AE4450037C701 /* API.swift in Sources */,
 				04DE8C551D8C2F07009112CA /* ViewControllerUtils.swift in Sources */,
+				333C89D61D8D6AAA00BD6446 /* LoginWithSoundmeViewController.swift in Sources */,
+				333C89DA1D8D6AC200BD6446 /* MapViewController.swift in Sources */,
 				04AE4C681D88B03B00A0C1FE /* ServerResponse.swift in Sources */,
 				04AE4C5E1D86BF1100A0C1FE /* User.swift in Sources */,
 				33CF860A1C8AE30A0037C701 /* AppDelegate.swift in Sources */,
+				333C89D91D8D6AC200BD6446 /* MainTabBarViewController.swift in Sources */,
 				04AE4C661D88AFAE00A0C1FE /* WebServices.swift in Sources */,
+				333C89DC1D8D6BFB00BD6446 /* ListSongForUserViewController.swift in Sources */,
 				04AE4C641D8829E200A0C1FE /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,6 +622,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = MSXB884665;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SoundMe/parse-library-1-6",
@@ -565,6 +643,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = MSXB884665;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SoundMe/parse-library-1-6",
